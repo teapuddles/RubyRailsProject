@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  persona_name,: MyString
+  first_appeared: 
+  last_appeared: 1
+
+two:
+  persona_name,: MyString
+  first_appeared: 
+  last_appeared: 1
