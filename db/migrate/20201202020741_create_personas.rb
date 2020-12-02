@@ -2,6 +2,7 @@ class CreatePersonas < ActiveRecord::Migration[6.0]
   def change
     create_table :personas do |t|
       t.string :persona_name
+      t.string :img_url
       t.integer :first_appeared
       t.integer :last_appeared
 

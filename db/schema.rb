@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2020_12_02_020828) do
 
   create_table "albums", force: :cascade do |t|
     t.string "title"
+    t.string "img_url"
     t.integer "year_released"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -24,6 +25,7 @@ ActiveRecord::Schema.define(version: 2020_12_02_020828) do
 
   create_table "personas", force: :cascade do |t|
     t.string "persona_name"
+    t.string "img_url"
     t.integer "first_appeared"
     t.integer "last_appeared"
     t.datetime "created_at", precision: 6, null: false
